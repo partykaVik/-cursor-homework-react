@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/-cursor-homework-react/static/css/main.fbda3dbb.chunk.css",
+    "main.js": "/-cursor-homework-react/static/js/main.8504061a.chunk.js",
+    "main.js.map": "/-cursor-homework-react/static/js/main.8504061a.chunk.js.map",
+    "runtime-main.js": "/-cursor-homework-react/static/js/runtime-main.213cafd7.js",
+    "runtime-main.js.map": "/-cursor-homework-react/static/js/runtime-main.213cafd7.js.map",
+    "static/js/2.56502904.chunk.js": "/-cursor-homework-react/static/js/2.56502904.chunk.js",
+    "static/js/2.56502904.chunk.js.map": "/-cursor-homework-react/static/js/2.56502904.chunk.js.map",
+    "index.html": "/-cursor-homework-react/index.html",
+    "static/css/main.fbda3dbb.chunk.css.map": "/-cursor-homework-react/static/css/main.fbda3dbb.chunk.css.map",
+    "static/js/2.56502904.chunk.js.LICENSE.txt": "/-cursor-homework-react/static/js/2.56502904.chunk.js.LICENSE.txt",
+    "static/media/Nasa_icon.6b742981.jpg": "/-cursor-homework-react/static/media/Nasa_icon.6b742981.jpg",
+    "static/media/Nasa_post.2f65155f.jpg": "/-cursor-homework-react/static/media/Nasa_post.2f65155f.jpg",
+    "static/media/World_of_Engineering.c2441280.jpg": "/-cursor-homework-react/static/media/World_of_Engineering.c2441280.jpg",
+    "static/media/World_of_Engineering_post.36c6f82f.jpg": "/-cursor-homework-react/static/media/World_of_Engineering_post.36c6f82f.jpg",
+    "static/media/comment.69c735c2.svg": "/-cursor-homework-react/static/media/comment.69c735c2.svg",
+    "static/media/history_ukraine.a8667c83.jpg": "/-cursor-homework-react/static/media/history_ukraine.a8667c83.jpg",
+    "static/media/history_ukraine_post.43eb03cc.jpg": "/-cursor-homework-react/static/media/history_ukraine_post.43eb03cc.jpg",
+    "static/media/like.ff986779.svg": "/-cursor-homework-react/static/media/like.ff986779.svg",
+    "static/media/styles.css": "/-cursor-homework-react/static/media/photo.ce7fb6be.jpg",
+    "static/media/photo_1.2d598b39.webp": "/-cursor-homework-react/static/media/photo_1.2d598b39.webp",
+    "static/media/photo_10.c7bc5977.webp": "/-cursor-homework-react/static/media/photo_10.c7bc5977.webp",
+    "static/media/photo_11.5abf0229.webp": "/-cursor-homework-react/static/media/photo_11.5abf0229.webp",
+    "static/media/photo_12.9bd2356b.webp": "/-cursor-homework-react/static/media/photo_12.9bd2356b.webp",
+    "static/media/photo_2.e32fa6d7.webp": "/-cursor-homework-react/static/media/photo_2.e32fa6d7.webp",
+    "static/media/photo_3.ee1a27e9.webp": "/-cursor-homework-react/static/media/photo_3.ee1a27e9.webp",
+    "static/media/photo_4.a4347cbe.webp": "/-cursor-homework-react/static/media/photo_4.a4347cbe.webp",
+    "static/media/photo_5.8d3d2ec1.webp": "/-cursor-homework-react/static/media/photo_5.8d3d2ec1.webp",
+    "static/media/photo_6.745def40.webp": "/-cursor-homework-react/static/media/photo_6.745def40.webp",
+    "static/media/photo_7.a17bae4c.webp": "/-cursor-homework-react/static/media/photo_7.a17bae4c.webp",
+    "static/media/photo_8.b95e85e7.webp": "/-cursor-homework-react/static/media/photo_8.b95e85e7.webp",
+    "static/media/photo_9.22495c26.webp": "/-cursor-homework-react/static/media/photo_9.22495c26.webp",
+    "static/media/retweet.2d1a5fdf.svg": "/-cursor-homework-react/static/media/retweet.2d1a5fdf.svg",
+    "static/media/share.b579cb9a.svg": "/-cursor-homework-react/static/media/share.b579cb9a.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.213cafd7.js",
+    "static/js/2.56502904.chunk.js",
+    "static/css/main.fbda3dbb.chunk.css",
+    "static/js/main.8504061a.chunk.js"
+  ]
+}
