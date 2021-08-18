@@ -1,8 +1,8 @@
 import React from 'react';
-import like from '../../img/icon/like.svg';
-import comment from '../../img/icon/comment.svg';
-import retweet from '../../img/icon/retweet.svg';
-import share from '../../img/icon/share.svg';
+import like from '../../assets/img/icon/like.svg';
+import comment from '../../assets/img/icon/comment.svg';
+import retweet from '../../assets/img/icon/retweet.svg';
+import share from '../../assets/img/icon/share.svg';
 
 export default function Post(props) {
 	return (

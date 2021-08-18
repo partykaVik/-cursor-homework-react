@@ -1,16 +1,15 @@
 import React from 'react';
-import Photo_1 from './../../img/gallery/photo_1.webp';
-import Photo_2 from './../../img/gallery/photo_2.webp';
-import Photo_3 from './../../img/gallery/photo_3.webp';
-import Photo_4 from './../../img/gallery/photo_4.webp';
-import Photo_5 from './../../img/gallery/photo_5.webp';
-import Photo_6 from './../../img/gallery/photo_6.webp';
-import Photo_7 from './../../img/gallery/photo_7.webp';
-import Photo_8 from './../../img/gallery/photo_8.webp';
-import Photo_9 from './../../img/gallery/photo_9.webp';
-import Photo_10 from './../../img/gallery/photo_10.webp';
-import Photo_11 from './../../img/gallery/photo_11.webp';
-import Photo_12 from './../../img/gallery/photo_12.webp';
+import Photo_1 from './../../assets/img/gallery/photo_1.webp';
+import Photo_2 from './../../assets/img/gallery/photo_2.webp';
+import Photo_3 from './../../assets/img/gallery/photo_3.webp';
+import Photo_4 from './../../assets/img/gallery/photo_4.webp';
+import Photo_5 from './../../assets/img/gallery/photo_5.webp';
+import Photo_6 from './../../assets/img/gallery/photo_6.webp';
+import Photo_7 from './../../assets/img/gallery/photo_7.webp';
+import Photo_8 from './../../assets/img/gallery/photo_8.webp';
+import Photo_9 from './../../assets/img/gallery/photo_9.webp';
+import Photo_10 from './../../assets/img/gallery/photo_10.webp';
+import Photo_11 from './../../assets/img/gallery/photo_11.webp';
 
 const photoArray = [
 	{ id: 1, path: Photo_1 },

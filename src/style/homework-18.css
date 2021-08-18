@@ -12,7 +12,7 @@
 	display: flex;
 	justify-content: center;
 	height: 1250px;
-	background: url('./../img/photo.jpg') no-repeat;
+	background: url('./../assets/img/photo.jpg') no-repeat;
 }
 
 .contact-list {

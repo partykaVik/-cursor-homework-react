@@ -89,13 +89,7 @@ function Contacts() {
 				</div>
 				<div className="contact-list">
 					{filteredContacts.map(contact => (
-						<Contact
-							key={contact.id}
-							firstName={contact.firstName}
-							lastName={contact.lastName}
-							phone={contact.phone}
-							gender={genderIcon(contact.gender)}
-						/>
+						<Contact {...contact} gender={genderIcon(contact.gender)} />
 					))}
 				</div>
 			</div>

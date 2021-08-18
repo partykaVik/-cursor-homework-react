@@ -1,10 +1,10 @@
 import Post from './Post';
-import worldOfEngineering from './../../img/World_of_Engineering.jpg';
-import worldOfEngineeringPost from './../../img/World_of_Engineering_post.jpg';
-import Nasa from './../../img/Nasa_icon.jpg';
-import nasaPost from './../../img/Nasa_post.jpg';
-import historyUkraine from './../../img/history_ukraine.jpg';
-import historyUkrainePost from './../../img/history_ukraine_post.jpg';
+import worldOfEngineering from './../../assets/img/World_of_Engineering.jpg';
+import worldOfEngineeringPost from './../../assets/img/World_of_Engineering_post.jpg';
+import Nasa from './../../assets/img/Nasa_icon.jpg';
+import nasaPost from './../../assets/img/Nasa_post.jpg';
+import historyUkraine from './../../assets/img/history_ukraine.jpg';
+import historyUkrainePost from './../../assets/img/history_ukraine_post.jpg';
 
 const authors = [
 	{
