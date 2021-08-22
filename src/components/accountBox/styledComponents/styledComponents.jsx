@@ -31,14 +31,16 @@ export const MutedLink = styled.a`
 	font-weight: 500;
 	text-decoration: none;
 	margin: 5px 4px;
+	z-index: 1001;
 `;
 
 export const BoldLink = styled.a`
 	font-size: 16px;
-	color: rgb(241, 196, 15);
+	color: red;
 	font-weight: 500;
 	text-decoration: none;
-	margin: 5px 4px;
+	margin: 10px 4px;
+	z-index: 1000;
 `;
 
 export const Input = styled.input`

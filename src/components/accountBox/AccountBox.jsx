@@ -17,7 +17,7 @@ import {
 
 export function AccountBox() {
 	const [isExpanded, setExpanded] = useState(false);
-	const [active, setActive] = useState('signin');
+	const [active, setActive] = useState('signIn');
 
 	const playExpandingAnimation = () => {
 		setExpanded(true);
@@ -29,14 +29,14 @@ export function AccountBox() {
 	const switchToSignUp = () => {
 		playExpandingAnimation();
 		setTimeout(() => {
-			setActive('signup');
+			setActive('signUp');
 		}, 400);
 	};
 
 	const switchToSignIn = () => {
 		playExpandingAnimation();
 		setTimeout(() => {
-			setActive('signin');
+			setActive('signIn');
 		}, 400);
 	};
 
@@ -55,14 +55,14 @@ export function AccountBox() {
 						variants={FormBackdropVariants}
 						transition={FormExpandingTransition}
 					/>
-					{active === 'signin' && (
+					{active === 'signIn' && (
 						<FormHeaderContainer>
 							<FormHeaderText>Welcome</FormHeaderText>
 							<FormHeaderText>Back</FormHeaderText>
 							<FormSmallText>Please sign-in to continue!</FormSmallText>
 						</FormHeaderContainer>
 					)}
-					{active === 'signup' && (
+					{active === 'signUp' && (
 						<FormHeaderContainer>
 							<FormHeaderText>Create</FormHeaderText>
 							<FormHeaderText>Account</FormHeaderText>
@@ -71,8 +71,8 @@ export function AccountBox() {
 					)}
 				</FormTopContainer>
 				<FormInnerContainer>
-					{active === 'signin' && <LoginForm />}
-					{active === 'signup' && <SignUpForm />}
+					{active === 'signIn' && <LoginForm />}
+					{active === 'signUp' && <SignUpForm />}
 				</FormInnerContainer>
 			</FormMainContainer>
 		</AccountContext.Provider>

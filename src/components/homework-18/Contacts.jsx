@@ -3,6 +3,7 @@ import Contact from './Contact';
 import { CgGenderMale } from 'react-icons/cg';
 import { CgGenderFemale } from 'react-icons/cg';
 import { BiQuestionMark } from 'react-icons/bi';
+import './../../style/homework-18.css';
 
 const contacts = [
 	{

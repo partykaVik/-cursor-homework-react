@@ -1,4 +1,5 @@
 import React, { useContext, useEffect, useState } from 'react';
+import { Redirect } from 'react-router-dom';
 import {
 	BoldLink,
 	BoxContainer,
@@ -56,9 +57,11 @@ export function LoginForm() {
 	const signInButtonHandler = () => {
 		if (formCheck) {
 			setSignedIn(true);
+			return <Redirect to="/Posts" />;
 		} else {
 			setEmail('');
 			setPassword('');
+			return <Redirect to="/Posts" />;
 		}
 	};
 
@@ -68,14 +71,14 @@ export function LoginForm() {
 				<Input type="email" placeholder="Email" />
 				<Input type="password" placeholder="Password" />
 			</FormContainer>
-			<MutedLink href="#">Forget your password?</MutedLink>
+			<MutedLink>Forget your password?</MutedLink>
 			<SubmitButton type="submit" onClick={() => signInButtonHandler()}>
 				Sign In
 			</SubmitButton>
-			<MutedLink href="#">
-				Don't have an account?{' '}
+			<MutedLink>
+				Don't have an account?
 				<BoldLink onClick={switchToSignUp}>Sign Up</BoldLink>
-			</MutedLink>{' '}
+			</MutedLink>
 		</BoxContainer>
 	);
 }

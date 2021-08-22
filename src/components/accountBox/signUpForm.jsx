@@ -1,4 +1,5 @@
 import React, { useState, useContext } from 'react';
+
 import {
 	BoldLink,
 	BoxContainer,
@@ -82,11 +83,9 @@ export function SignUpForm() {
 				SignUp
 			</SubmitButton>
 
-			<MutedLink href="#">
+			<MutedLink>
 				Already have an account?
-				<BoldLink href="#" onClick={switchToSignIn}>
-					SignIn
-				</BoldLink>
+				<BoldLink onClick={switchToSignIn}>SignIn</BoldLink>
 			</MutedLink>
 		</BoxContainer>
 	);

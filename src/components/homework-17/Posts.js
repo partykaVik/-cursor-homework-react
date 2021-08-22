@@ -5,6 +5,7 @@ import Nasa from './../../assets/img/Nasa_icon.jpg';
 import nasaPost from './../../assets/img/Nasa_post.jpg';
 import historyUkraine from './../../assets/img/history_ukraine.jpg';
 import historyUkrainePost from './../../assets/img/history_ukraine_post.jpg';
+import './../../style/homework-17.css';
 
 const authors = [
 	{
