@@ -7,7 +7,7 @@ import historyUkraine from './../../assets/img/history_ukraine.jpg';
 import historyUkrainePost from './../../assets/img/history_ukraine_post.jpg';
 import './../../style/homework-17.css';
 
-const authors = [
+export const Authors = [
 	{
 		id: 1,
 		name: 'History Ukraine',
@@ -46,27 +46,15 @@ const authors = [
 	},
 ];
 
-function Posts() {
+export function Posts() {
 	return (
 		<div className="App">
 			<div className="container">
-				{authors.map(author => (
-					<Post
-						key={author.id}
-						name={author.name}
-						avatar={author.avatar}
-						nickname={author.nickname}
-						date={author.date}
-						text={author.text}
-						photo={author.photo}
-						amountComment={author.amountComment}
-						amountRetweet={author.amountRetweet}
-						amountLike={author.amountLike}
-					/>
+				{Authors.map(author => (
+					<Post key={author.id} {...author} />
 				))}
 			</div>
+			<div className="container"></div>
 		</div>
 	);
 }
-
-export default Posts;
